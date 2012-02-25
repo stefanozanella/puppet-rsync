@@ -1,0 +1,2 @@
+class rsync::install {
+}
