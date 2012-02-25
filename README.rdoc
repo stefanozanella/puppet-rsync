@@ -1,0 +1,10 @@
+= Puppet module: rsync
+
+This is a Puppet rsync module, made by Stefano Zanella.
+
+Released under Apache 2 License.
+
+For this module to compile properly, some functionalities from stefanozanella/puppet-common module are needed.
+This dependency provides some definitions used througout the module in the form of virtual definitions. So, it's not mandatory to actually *use* the functionality provided by the dependency; it's only needed to let the catalog compile.
+
+For details about dependencies, please take a look at the +Modulefile+.
