@@ -1,0 +1,21 @@
+{
+  "name": "stefanozanella-rsync",
+  "author": "Stefano Zanella",
+  "description": "This module installs and manages rsync. Check README.rdoc for details. stefanozanella/common module is needed to let catalog compile, but you aren\u0027t forced to actually use provided features such as firewall management.",
+  "license": "Apache 2",
+  "project_page": "",
+  "source": "https://github.com/stefanozanella/puppet-rsync",
+  "summary": "Puppet module for managing rsync.",
+  "version": "1.0.0",
+  "checksums": {
+    "Modulefile": "e7c952928768c7fb7c0288d0c37838a7",
+    "README.rdoc": "2552670cc86919bf7479749fd4cc0aaf",
+    "manifests/config.pp": "bedfe34c205ddc0e374d2e77eb57249d",
+    "manifests/init.pp": "a176d3f09e90c65d3d9b795f8bee1d11",
+    "manifests/install.pp": "567b235f4a29d3f33ab5dbf166d3942b",
+    "manifests/params.pp": "d88d734d5d6200bbbb3b4c015b937c8b",
+    "manifests/service.pp": "a4a4749441f1511bdecfd21b24ea8766",
+    "templates/rsync.erb": "d41d8cd98f00b204e9800998ecf8427e"
+  },
+  "dependencies": []
+}
